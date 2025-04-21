@@ -99,9 +99,9 @@ def gerar_pdf_multipagina(df):
 
 # ---------------- STREAMLIT APP -----------------
 
-st.set_page_config(page_title="Gerador de PDF", layout="centered")
+st.set_page_config(page_title="Contrex -Gerador de PDF", layout="centered")
 
-st.title("📄 Gerador de PDF a partir de Excel")
+st.title("📄 Contrex - Gerador de PDF a partir de Excel")
 st.markdown("Faça upload da planilha com os dados e clique em **Gerar PDF**.")
 
 arquivo = st.file_uploader("Selecione a planilha Excel", type=["xlsx", "xls"])
